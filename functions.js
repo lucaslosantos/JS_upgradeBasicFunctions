@@ -1,3 +1,5 @@
+//Iteracion 1:
+
 function sum(numberOne , numberTwo) {
     if (numberOne>numberTwo){
         console.log (numberOne);
@@ -9,3 +11,22 @@ function sum(numberOne , numberTwo) {
   }
 
   sum(2,2);
+
+//Iteracion 2:
+ let MasLargo= "";
+  const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
+function findLongestWord(param) {
+  for (let i=0;i< param.length;i++){
+    if (param[i].length>MasLargo.length){
+        MasLargo=param[i];
+    }
+    else if (param[i].length == MasLargo.length){
+        MasLargo=MasLargo + " " + param[i];
+    }
+  }
+  console.log(MasLargo);
+}
+
+findLongestWord(avengers);
+//Iteracion 2:
+
