@@ -45,6 +45,22 @@ function sumAll(param) {
 }
 sumAll(numbers);
 
+console.log("----------------------")
+//Iteracion 4:
+
+const numbers4 = [12, 21, 38, 5, 45, 37, 6];
+let suma4=0;
+let promedio=0;
+function average(param) {
+    for (let i=0; i<param.length; i++ ){
+        suma4=suma4+param[i];
+      }
+      promedio= suma4/param.length;
+      console.log("El promedio de este array es: " + promedio);
+    
+  // insert code
+}
+average(numbers4);
 
 
 
