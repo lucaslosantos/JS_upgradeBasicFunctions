@@ -62,6 +62,27 @@ function average(param) {
 }
 average(numbers4);
 
+console.log("----------------------")
+//Iteracion 5:
+
+const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', 10, 'upgrade', 8, 'hub'];
+suma5=0;
+promedio5=0;
+function averageWord(param) {
+    for (let i=0; i<param.length; i++){
+        if (isNaN(param[i])){
+            suma5= suma5+ param[i].length;
+        }
+        else if (isNaN(param[i])==false){
+            suma5= suma5 + param[i];
+        } 
+    }
+promedio= suma5/param.length;
+console.log("La suma de todo es: " + suma);
+console.log("El promedio de todo es: " + promedio);
+
+}
+averageWord(mixedElements);
 
 
 
