@@ -12,7 +12,9 @@ function sum(numberOne , numberTwo) {
 
   sum(2,2);
 
+console.log("----------------------")
 //Iteracion 2:
+
  let MasLargo= "";
   const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
 function findLongestWord(param) {
@@ -28,5 +30,24 @@ function findLongestWord(param) {
 }
 
 findLongestWord(avengers);
-//Iteracion 2:
+
+console.log("----------------------")
+//Iteracion 3:
+
+const numbers = [1, 2, 3, 5, 45, 37, 58];
+let suma=0;
+function sumAll(param) {
+  for (let i=0; i<param.length; i++ ){
+    suma=suma+param[i];
+  }
+  console.log("La suma de todos los elementos del array " + "es: " + suma);
+
+}
+sumAll(numbers);
+
+
+
+
+
+
 
