@@ -85,6 +85,36 @@ console.log("El promedio de todo es: " + promedio);
 averageWord(mixedElements);
 
 
+console.log("----------------------")
+//Iteracion 6:
+//LOCURA 
 
+const duplicates = [
+    'sushi',
+    'pizza',
+    'burger',
+    'potatoe',
+    'pasta',
+    'ice-cream',
+    'pizza',
+    'chicken',
+    'onion rings',
+    'pasta',
+    'soda'
+  ];
+  function removeDuplicates(param) {
+      for (let i=0; i<param.length;i++){
+          for (let e=1; e<= param.length;e++){
+            if (param[i]==param[e] && i!==e){
+                console.log(param[e]);
+                param.splice(e,1);
+            }
+          }
+      }
+    console.log (param)
+
+  }
+  removeDuplicates(duplicates);
+  
 
 
